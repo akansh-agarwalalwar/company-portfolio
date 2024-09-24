@@ -196,17 +196,16 @@ const Contact = () => {
 
                 <div className="flex flex-col">
                   <h2 className="text-2xl">Call Us</h2>
-                  <p className="text-gray-400">Tel: +91-7850930648</p>
+                  <p className="text-gray-400">Phone: +91 7850930648</p>
                   <div className="mt-5">
                     <h2 className="text-2xl">Send an E-mail</h2>
-                    <p className="text-gray-400">
-                      akanshagarwal.alwar@gmail.com
+                    <p className="text-gray-400">vigya.dev@gmail.com
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="flex my-4 w-2/3 lg:w-1/2">
+              {/* <div className="flex my-4 w-2/3 lg:w-1/2">
                 <a
                   href="https://www.facebook.com/ENLIGHTENEERING/"
                   target="_blank"
@@ -240,7 +239,7 @@ const Contact = () => {
                     <path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
                   </svg>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
