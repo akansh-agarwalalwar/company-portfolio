@@ -193,14 +193,12 @@ const Contact = () => {
                 <div className="flex flex-col">
                   <i className="fas fa-phone-alt pt-2 pr-2" />
                 </div>
-
                 <div className="flex flex-col">
                   <h2 className="text-2xl">Call Us</h2>
                   <p className="text-gray-400">Phone: +91 7850930648</p>
                   <div className="mt-5">
                     <h2 className="text-2xl">Send an E-mail</h2>
-                    <p className="text-gray-400">vigya.dev@gmail.com
-                    </p>
+                    <p className="text-gray-400">vigya.dev@gmail.com</p>
                   </div>
                 </div>
               </div>

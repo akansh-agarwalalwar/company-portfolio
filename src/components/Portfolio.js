@@ -11,23 +11,21 @@ const Portfolio = () => {
         <div className="flex justify-center">
           <div className="w-24 border-b-4 border-blue-900 mb-8"></div>
         </div>
-
         <div className="px-4" data-aos="fade-down" data-aos-delay="600">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
               <div className="m-2 text-justify text-sm">
                 <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">
-                  Business Management System
+                  Travel Agency Management Solution
                 </h4>
                 <p className="text-md font-medium leading-5 h-auto md:h-48">
-                  Our Business Management System is a powerful and scalable
-                  solution designed to enhance business operations, boost
-                  efficiency, and ultimately drive growth and profitability.
-                  With comprehensive features like employee management,
-                  financial oversight, and additional modules, you can manage
-                  every facet of your business with ease. All data is securely
-                  stored in the cloud, ensuring accessibility from any device
-                  and location.
+                  Developed a comprehensive solution tailored for travel
+                  agencies, streamlining itinerary planning, booking management,
+                  customer relationship management, and payment processing. This
+                  platform enables agencies to efficiently manage operations,
+                  enhance customer experience, and improve workflow automation,
+                  making it easier for travel agents to deliver seamless and
+                  personalized travel experiences.
                 </p>
                 <div className="flex justify-center my-4">
                   <Link
@@ -119,7 +117,7 @@ const Portfolio = () => {
                     to="/get-demo"
                     className="text-white bg-[#120A31] hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl"
                   >
-                  Book Appointment
+                    Book Appointment
                     <svg
                       className="w-4 h-4 ml-1"
                       xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +155,7 @@ const Portfolio = () => {
                     to="/get-demo"
                     className="text-white bg-[#120A31] hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl"
                   >
-                   Book Appointment
+                    Book Appointment
                     <svg
                       className="w-4 h-4 ml-1"
                       xmlns="http://www.w3.org/2000/svg"

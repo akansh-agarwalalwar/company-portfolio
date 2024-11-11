@@ -24,12 +24,10 @@ function App() {
         easing: 'ease-out-cubic',
       });
     }
-
     window.addEventListener('load', () => {
       aos_init();
     });
   }, []);
-
   useDocTitle("Vigya");
 
   return (
@@ -39,7 +37,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/get-demo" element={<DemoProduct />} /> 
+            <Route path="/get-demo" element={<DemoProduct />} />
           </Routes>
         </ScrollToTop>
       </Router>
