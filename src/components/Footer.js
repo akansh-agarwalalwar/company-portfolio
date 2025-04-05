@@ -58,6 +58,15 @@ const Footer = () => {
                         <li className="mb-2">
                             <Link smooth to="/get-demo" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Intuitive User Experiences</Link>
                         </li>
+                        <li className="mb-2">
+                            <Link smooth to="/get-demo" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">UI/UX Design</Link>
+                        </li>
+                        <li className="mb-2">
+                            <Link smooth to="/get-demo" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Research Paper</Link>
+                        </li>
+                        <li className="mb-2">
+                            <Link smooth to="/get-demo" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Capstone Project</Link>
+                        </li>
                         </ul>
                     </div>
 
