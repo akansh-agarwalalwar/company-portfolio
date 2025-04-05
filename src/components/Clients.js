@@ -3,6 +3,8 @@ import kws from "../images/clients/kws.png";
 import geps from "../images/clients/geps.png";
 import protergia from "../images/clients/protergia.png";
 import travello10 from "../images/clients/Travello10logo.png";
+import noteshala from "../images/noteshalla.jpg";
+import propertywallah from "../images/propertywallah.svg";
 
 const clientImage = {
   height: "10rem",
@@ -26,12 +28,12 @@ const Clients = () => {
           </h2>
         </div>
         <div className="p-16" data-aos="fade-in" data-aos-delay="600">
-          <div className="w-full">
+          <div className="w-full flex justify-center items-center flex-wrap gap-14">
             {/* <div
               style={clientImage}
-              className="overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100 w-1/6"
+              className="overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100"
             >
-              <img src={travello10} alt="client" />
+              <img src={propertywallah} alt="client" className="" />
             </div> */}
             <div
               style={clientImage}
@@ -39,13 +41,13 @@ const Clients = () => {
             >
               <img src={travello10} alt="client" />
             </div>
-            {/* 
+            
             <div
               style={clientImage}
-              className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100"
+              className="overflow-hidden p-3 flex justify-center transition-all ease-in-out hover:opacity-100"
             >
-              <img src={geps} alt="client" />
-            </div> */}
+              <img src={noteshala} alt="client" />
+            </div>
           </div>
         </div>
       </section>
