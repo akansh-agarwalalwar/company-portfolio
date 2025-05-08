@@ -10,9 +10,18 @@ const clientImage = {
   height: "10rem",
   width: "auto",
   mixBlendMode: "colorBurn",
+  cursor: "pointer", // Add this line
 };
 
 const Clients = () => {
+
+  const handleTravello10 = () => {
+    window.open("https://travello10.com", "_blank");
+  }
+  const handleNoteshalla = () => {
+    window.open("https://www.notesshaala.live", "_blank");
+  };
+  
   return (
     <div className="mt-8 bg-gray-100">
       <section data-aos="fade-up">
@@ -39,14 +48,14 @@ const Clients = () => {
               style={clientImage}
               className="overflow-hidden p-3 flex justify-center transition-all ease-in-out hover:opacity-100 "
             >
-              <img src={travello10} alt="client" />
+              <img src={travello10} alt="client" onClick={handleTravello10} className="" />
             </div>
             
             <div
               style={clientImage}
               className="overflow-hidden p-3 flex justify-center transition-all ease-in-out hover:opacity-100"
             >
-              <img src={noteshala} alt="client" />
+              <img src={noteshala} alt="client"  onClick={handleNoteshalla}  />
             </div>
           </div>
         </div>
